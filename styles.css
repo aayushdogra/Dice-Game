@@ -12,6 +12,7 @@
 
 body {
   background-color: #222831;
+  margin-bottom: 2px;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
@@ -40,19 +41,46 @@ footer {
   background-color: #393E46;
 }
 
+.Roll {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.rollDice {
+  padding: 5% 2% 0%;
+}
+
+.pressed {
+  box-shadow: #DBEDF3;
+  opacity: 0.5;
+}
 
 .footer {
   padding: 0% 5% 1%;
 }
 
 .container {
-  padding: 3% 7% 1%;
+  padding: 1% 7% 0%;
+  margin-bottom: 0px;
 }
 
 .social-anchor {
   color: red;
   padding: 0% 2%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 a:hover {
   color: #EEEEEE;
